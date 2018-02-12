@@ -18,15 +18,15 @@ public class OlympicRings_Threaded {
 		slicky.setSpeed(100);
 		
 		timmy.penDown();
-		timmy.setPenColor(100, 0, 0);
+		timmy.setPenColor(500, 0, 0);
 		tammy.penDown();
-		tammy.setPenColor(100, 0, 0);
+		tammy.setPenColor(0, 500, 0);
 		sammy.penDown();
-		sammy.setPenColor(100, 0, 0);
+		sammy.setPenColor(0, 0, 500);
 		ricky.penDown();
-		ricky.setPenColor(100, 0, 0);
+		ricky.setPenColor(100, 100, 100);
 		slicky.penDown();
-		slicky.setPenColor(100, 0, 0);
+		slicky.setPenColor(200, 300, 400);
 		
 		new Thread(()-> {
 			for(int i = 0; i < 360; i++) {
